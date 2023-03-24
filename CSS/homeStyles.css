@@ -1,0 +1,121 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/empty-white-grey-studio-backdrop-background_1258-83076.jpg?w=1800&t=st=1678448141~exp=1678448741~hmac=48807156315454ffbd0f5ffa426bb2d62ed484b298d01fa1c5efe90527abe6df');
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .ia {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 50px;
+  }
+  
+  
+  .ib{
+      border: 5px solid #555;
+  }
+  
+  
+  a:link {
+    font-family: 'Oswald';font-size: 22px;
+    color: #fcc203;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    font-family: 'Oswald';font-size: 22px;
+    color: #fcc203;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    font-family: 'Oswald';font-size: 22px;
+    color: #fcc203;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    font-family: 'Oswald';font-size: 22px;
+    color: #fcc203;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .font {
+      font-family: 'Oswald';font-size: 22px;
+      color: #fcc203;
+  }
+  
+  
+  .sfont {
+      font-family: 'Oswald';font-size: 22px;
+      text-align: center;
+      color: #fcc203;
+  }
+  
+  .borderstyle {
+      border: 5px solid #555;
+      background-color: #423f3b;
+      text-align: center;
+      text-color: #fcc203;
+  }
+  
+  .ul {
+      text-align: center;
+  }
+  
+  .listcolumn {
+      flex: 10%;
+      padding: 30px;
+  }
+  
+  
+  
+  .topnav {
+      overflow: hidden;
+      background-color: #33;
+      text-align: center;
+      padding: 10px 20px;	
+  }
+  
+  .topnav a {
+    float: centre;
+    color: black;
+    text-align: center;
+    padding: 28px 32px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: gray;
+    text-align: center;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #cfb13a;
+    text-align: center;
+    color: black;
+  }
