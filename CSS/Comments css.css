@@ -1,7 +1,20 @@
 body {
   background-image:url('https://img.freepik.com/free-photo/empty-white-grey-studio-backdrop-background_1258-83076.jpg?w=1800&t=st=1678448141~exp=1678448741~hmac=48807156315454ffbd0f5ffa426bb2d62ed484b298d01fa1c5efe90527abe6df');
-  text-align: ;
 }
+
+#comments-section {
+  background-color: #1a1a1a;
+}
+.top-space {
+  padding: 10px;
+  margin-top: 1rem;
+  background-color: #1a1a1a;
+}
+
+.top-space > ul > li {
+  margin-top: 2px;
+}
+
 h1 {
   color:black ;
   text-align:center ;
@@ -10,6 +23,7 @@ h1 {
   font-family: 'Oswald', sans-serif;font-size: 50px
 
 }
+
 p {
   color: ;
   text-align: ;
@@ -26,13 +40,9 @@ ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color:;#
 }
 li a:hover {
   background-color: #2b2b2b;
-}
-li {
-  float: left;
 }
 
 li a {
@@ -45,7 +55,6 @@ li a {
 }
 
 
-}
 li a:hover:not(.active) {
   background-color: #;
 }
@@ -66,12 +75,20 @@ ul {
   padding: 0;
 }
 
-li {
+
+.menu-li {
   display: inline;
+  float: left;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.comment-style {
+  background-color:#1a1a1a;
+  color: white;
+  padding: 5px;
 }
 
 .ia {
@@ -127,5 +144,23 @@ a:active {
 	text-align: center;
 }
 
+#comment-box, #post {
+  border-radius: 5px;
+}
 
+#comment-box {
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 12px;
+}
+
+#post:hover{
+  background-color: rgb(14, 194, 68);
+  color: white;
+}
+
+#post {
+  padding: 12px;
+  margin-bottom: 5px;
+}
 
