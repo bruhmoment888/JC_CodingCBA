@@ -1,139 +1,43 @@
 <!--Maxim Suleac did this-->
-<!HTML>
+<!DOCTYPE HTML>
 
-  <head>
-    <title>Home Page</title>
-    <meta charset="utf-8">
-	<!--linking the CSS-->
-    <link rel="stylesheet" href="CSS/homeStyles.css">
-    <title>Blockberry Home</title>
-	<!--setting the font-->
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>>
-  </head>
+<html>
 
-  <body>
-<!--navigation bar at the top of the page-->>
-    <div class="borderstyle">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="Ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--importing the CSS-->
+  <link rel="stylesheet" href="CSS\Comments css.css">
+  <title>Blockberry Home</title>
 
-      <div class="topnav">
-        <img src="images/Capture.png">
-        <a href="Movie Review Page 1.html" style="color: #fcc203">New Movies/Shows</a>
-        <a href="Movie Review Page 2.html" style="color: #fcc203">Highest Rated Movies/Shows</a>
-        <a href="Movie Review Page 3.html" style="color: #fcc203">Upcoming Movies/Shows</a>
-        <a href="Movie Review Page 4.html" style="color: #fcc203">Genres</a>
-        <a href="Comments.html" style="color: #fcc203">Comments</a>
-        <a href="HelpPage.html" style="color:#fcc203">Help</a>
-      </div>
+</head>
 
-    </div>
+<body>
+  <!--Navigation Bar at the top of the screen-->
+  <ul>
+    <li><a href="Home Page.html" class="menu-li"><img src="images/Capture.png" Width="150" height="100"
+          alt="logo"></a></li>
+    <li><a href="Movie Review Page 1.html" class="menu-li">New Movies/Shows</a></li>
+    <li><a href="Movie Review Page 2.html" class="menu-li">Highest Rated Movies/Shows</a></li>
+    <li><a href="Movie Review Page 3.html" class="menu-li">Upcoming Movies/Shows</a></li>
+    <li><a href="Movie Review Page 4.html" class="menu-li">Genres</a></li>
+    <li><a href="Movie Review Page 5.html" class="menu-li">Comments</a></li>
+    <li><a href="HelpPage.html" class="menu-li">help</a></li>
+  </ul>
 
-    <br>
-    <br>
+<!--div for the JavaScript comment box-->
+  <div class="top-space">
+    <!--the text box the type the comment-->
+    <input type="text" id="comment-box" placeholder="Enter comment">
+	<!--the button to post the comment-->
+    <button id="post">Add Comment</button>
+	<!--list for the posted comments-->
+    <ul id="comments-section"> </ul>
+  </div>
+  <!--importing the JavaScript-->
+  <script src="Scripts/commentcode.js"></script>
 
-<!--other webpage samples-->
-    <div class="borderstyle">
+</body>
 
-      <h1 class="sfont">New Movies : </h1>
-
-      <div class="ia">
-        <!--uses class column for the images to stay side by side-->
-        <div class="column">
-          <h2 class="font">Shazam! Fury of the Gods</h2>
-          <a href="https://youtu.be/Zi88i4CpHe4"><img
-              src="https://m.media-amazon.com/images/M/MV5BZTJkMTBjZWEtMzhhMy00MjlkLTkyNTYtNGZjNGM4Mjk5YTEyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Cocaine Bear</h2>
-          <a href="https://youtu.be/DuWEEKeJLMI"><img
-              src="https://m.media-amazon.com/images/M/MV5BODAwZDQ5ZjEtZDI1My00MTFiLTg0ZjUtOGE2YTBkOTdjODFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Creed III</h2>
-          <a href="https://youtu.be/AHmCH7iB_IM"><img
-              src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/creed-3-1666012218.jpg?resize=480:*"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Scream 6</h2>
-          <a href="https://youtu.be/h74AXqw4Opc"><img
-              src="https://m.media-amazon.com/images/M/MV5BYTQ5OTkxNGEtZjZkMS00ZjBlLWE2OWYtM2ZkOTU3MjRlNzAxXkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-      </div>
-
-    </div>
-    <br>
-    <br>
-    <!--other webpage samples-->
-    <div class="borderstyle">
-
-      <h1 class="sfont">Best Rated Movies : </h1>
-       <!--uses class column for the images to stay side by side-->
-      <div class="ia">
-        <div class="column">
-          <h2 class="font">The Godfather</h2>
-          <a href="https://youtu.be/Zi88i4CpHe4"><img
-              src="images/godfather.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">The Matrix</h2>
-          <a href="https://youtu.be/DuWEEKeJLMI"><img
-              src="images/matrix.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">The Lord Of The Rings</h2>
-          <a href="https://youtu.be/AHmCH7iB_IM"><img
-              src="images/LotR.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Brother</h2>
-          <a href="https://youtu.be/h74AXqw4Opc"><img
-              src="images/brother.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-      </div>
-
-    </div>
-
-    <br>
-    <br>
-    <!--other webpage samples-->
-    <div class="borderstyle">
-
-      <h1 class="sfont">Upcoming Movies/Shows : </h1>
-      <!--uses class column for the images to stay side by side-->
-      <div class="ia">
-        <div class="column">
-          <h2 class="font">The Super Mario Bros Movie</h2>
-          <a href="https://youtu.be/Zi88i4CpHe4"><img
-              src="images/mario.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Guardins Of The Galaxy Vol.3</h2>
-          <a href="https://youtu.be/DuWEEKeJLMI"><img
-              src="images/gotg.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Spider-man Across The Spider-Verse</h2>
-          <a href="https://youtu.be/AHmCH7iB_IM"><img
-              src="images/spider.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-        <div class="column">
-          <h2 class="font">Mission: Impossible - Dead Reckoning Part One</h2>
-          <a href="https://youtu.be/h74AXqw4Opc"><img
-              src="images/mi.jpg"
-              width="300" height="370" class="ib"></a>
-        </div>
-      </div>
-    </div>
-    
-
-  </body>
+</html>
