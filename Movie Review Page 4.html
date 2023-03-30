@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<!-- Michal made this page -->
+<html>
+	<head>
+		<meta charset="utf-8"> <!-- standard character set -->
+		<title>GENRES - BLOCKBERRY</title> <!-- page title -->
+		<link rel="stylesheet" href="CSS\Movie_Review.css"> <!-- stylesheet file location specified -->
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'> <!-- font specified -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+
+<style>
+        button {
+            background-color: orange;  <!-- button colour -->
+            color: white;
+            padding: 12px 25px; 
+            text-align: center;
+            border-radius: 16px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+</style>
+
+	<script>
+			function showText() {  <!-- function made --> 
+			var text1 = document.getElementById("myText1"); 
+			var text2 = document.getElementById("myText2"); 
+			var text3 = document.getElementById("myText3"); 
+			var text4 = document.getElementById("myText4"); 	<!-- variable made -->
+			text1.style.opacity = "1";  <!-- opacity defined -->
+			text2.style.opacity = "1";  <!-- opacity defined -->
+			text3.style.opacity = "1";  <!-- opacity defined -->
+			text4.style.opacity = "1";  <!-- opacity defined -->
+		}
+  
+	</script>
+	</head>
+	<body> 
+	
+
+ 
+	<ul> <!-- beginning of unordered list-->
+		<li><a href="Movie Review Index.html"><img src="Images\transplogo.png" Width="200" height="80" alt="logo"></a></li> <!-- dimensions of the logo image specified-->
+		<li><a href="Movie Review Page 1.html">New Shows</a></li> <!-- line 18-22, portals to the other html documents -->
+		<li><a href="Movie Review Page 2.html">Highest Rated</a></li>
+		<li><a href="Movie Review Page 3.html">Upcoming Movies/Shows</a></li>
+		<li><a href="Movie Review Page 4.html">Genres</a></li>
+		<li><a href="Movie Review Page 5.html">Trivia</a></li> 
+	</ul> <!-- end of unordered list-->
+
+<h1><b>GENRES</b></h1> <!-- heading -->
+	
+<br> <!-- line skip/break -->
+
+<div class ="ia">
+	<div class="column"> <!-- -->
+	<h2 class="font">COMEDY</h2> <!-- subheading -->
+	<h2 class="font">MUMMIES</h2>
+	<a href="https://www.youtube.com/watch?v=X6rNGDAiFjQ"> <img id="myImage" src="Images\mummies.jpg" width="300" height="370" class="ib"></a> <!-- image attached with a link to a related video -->
+	<h2 id="myText1" class="font" style="opacity: 0; transition: opacity 1s ease; border: none; font-size: 30px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">It follows three mummies as they end up in present-day London and embark on a journey in search of <!-- description -->
+	an old ring belonging to the Royal Family, stolen by the ambitious archaeologist Lord Carnaby</h2> <!-- description -->
+</div>
+ 
+<br>
+ 
+<div class="column">
+	<h2 class="font">ACTION</h2> <!-- subheading -->
+	<h2 class="font">BLACK ADAM</h2>
+	<a href="https://www.youtube.com/watch?v=mkomfZHG5q4"> <img id="myImage" src="Images\blackadam.jpg" width="300" height="370" class="ib"></a> <!-- image attached with a link to a related video -->
+
+	<h2 id="myText2" class="font" style="opacity: 0; transition: opacity 1s ease; border: none; font-size: 30px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Nearly 5,000 years after he was
+	bestowed with the almighty powers of the Egyptian gods--and imprisoned justas quickly--Black Adam is freed from his earthly tomb,
+	ready to unleash his unique form of justice on the modern world.</h2> <!-- description -->
+</div>
+  
+<button onclick="showText('myText')">VIEW DESCRIPTIONS</button>
+
+<div class="column">
+	<h2 class="font">DRAMA</h2> <!-- subheading -->
+	<h2 class="font">THE WHALE</h2>
+	<a href="https://www.youtube.com/watch?v=nWiQodhMvz4"> <img id="myImage" src="Images\whale.jpg" width="300" height="370" class="ib"></a> <!-- image attached with a link to a related video -->
+	<h2 id="myText3" class="font" style="opacity: 0; transition: opacity 1s ease; border: none; font-size: 30px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">A reclusive, morbidly obese English teacher attempts
+	to reconnect with his estranged teenage daughter.</h2> <!-- description -->
+  
+</div>
+
+<br>
+  
+<div class="column">
+	<h2 class="font">ROMANCE</h2> <!-- subheading -->
+	<h2 class="font">MAYBE I DO</h2>
+	<a href="https://www.youtube.com/watch?v=xzJpwD28Cqs"> <img id="myImage" src="Images\maybeido.jpg" width="300" height="370" class="ib"></a> <!-- image attached with a link to a related video -->
+	<h2 id="myText4" class="font" style="opacity: 0; transition: opacity 1s ease; border: none; font-size: 30px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Michelle and Allen are in a 
+	relationship. They decide to invite their parents to finally meet about marriage.
+	Turns out, the parents already know one another well, which leads to some differing opinions about marriage.</h2> <!-- description -->
+</div>
+ 
+<br>
+
+
+
+
+	
+</html>
