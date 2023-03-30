@@ -1,0 +1,8 @@
+button {
+  background-color: orange; /* background colour is set to orange */
+  color: white; /* text colour set to white */
+  padding: 12px 24px; /* padding width + lenght defined */
+  text-align: center; /* text is centered */
+  border-radius: 8px; /* this makes the button smoother around the edges */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* shadow defined */
+}
